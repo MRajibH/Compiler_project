@@ -1,0 +1,23 @@
+$ Start
+mainfunction:
+[ 
+  jodi(a >4)
+  [
+   a = 30 * 4
+   b = a + (10*8)
+  ] 
+  loop(x>11)
+  [ 
+  	x=x+5
+  	x++
+  	
+  	jodi(x == 50)
+  	[ 
+  		break
+  	] 
+  ]
+  jodi(b<14)
+  [
+  	x = 78
+  ]
+]

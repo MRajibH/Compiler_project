@@ -1,0 +1,4 @@
+SET CLASSPATH=.;C:\Javalib\antlr-4.7.2-complete.jar;%CLASSPATH%
+java -jar antlr-4.7.2-complete.jar compiler.g4
+javac -cp .;antlr-4.7.2-complete.jar compiler*.java
+java -cp .;antlr-4.7.2-complete.jar org.antlr.v4.gui.TestRig compiler root -gui in.txt
